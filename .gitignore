@@ -1,0 +1,51 @@
+# Claude / project instructions
+CLAUDE.md
+.claude/
+.claude.json
+.claude.local.json
+
+# Session notes and planted-flaws log
+docs/sessions/
+
+# Secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Model checkpoints and large binaries
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.gguf
+*.onnx
+checkpoints/
+models/
+
+# Raw downloaded datasets (fetch scripts are committed instead)
+shared/datasets/raw/
+shared/datasets/**/*.parquet
+shared/datasets/**/*.jsonl
+data/raw/
+
+# Documents
+*.pdf
+
+# Pilot runs and raw API call logs (large; rerun experiment.py to regenerate)
+**/results/pilot/
+**/results/**/calls.jsonl
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

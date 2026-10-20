@@ -1,0 +1,17 @@
+{
+  "generator": "gpt-4o-mini",
+  "judge": "gpt-4.1",
+  "seed": 42,
+  "k": 5,
+  "n_questions": 150,
+  "runs": 3,
+  "conditions": {
+    "C1": 2,
+    "C2": 1,
+    "C3": 0
+  },
+  "python": "3.12.14",
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "openai": "3.22.1",
+  "sample_path": "shared/datasets/raw/hotpotqa_sample_n150_seed42.json"
+}
